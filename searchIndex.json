@@ -1,0 +1,155 @@
+{
+  "/dashboard": {
+    "version": 1,
+    "title": "Hyrax AI | Adaptive AI Learning Platform",
+    "description": "AI-powered platform offering adaptive problems with personalized difficulty on various subjects. Progress at your own pace, fueling efficient and optimized growth for every individual's path.",
+    "keywords": "",
+    "h1": [],
+    "h2": [],
+    "h3": [],
+    "h4": [],
+    "h5": [],
+    "h6": [],
+    "p": [
+      "Profile",
+      "Leaderboard",
+      "HYRAX",
+      "Sign In",
+      "Register",
+      "Games",
+      "Crash",
+      "Plinko",
+      "Topics",
+      "Digital SAT Math"
+    ],
+    "codeblock": [],
+    "url": "/dashboard"
+  },
+  "/404": {
+    "version": 1,
+    "title": "404 | Hyrax AI",
+    "description": "404 | AI-powered platform offering adaptive problems with personalized difficulty on various subjects. Progress at your own pace, fueling efficient and optimized growth for every individual's path.",
+    "keywords": "",
+    "h1": [
+      "404",
+      "Page not found"
+    ],
+    "h2": [],
+    "h3": [],
+    "h4": [],
+    "h5": [],
+    "h6": [],
+    "p": [
+      "HYRAX AI",
+      "Home",
+      "About",
+      "Contact",
+      "Dashboard",
+      "“The scientific man does not aim at an immediate result. He does not expect that his advanced ideas will be readily taken up. His work is like that of the planter - for the future. His duty is to lay the foundation for those who are to come, and point the way.”",
+      "― Nikola Tesla",
+      "Go to homepage",
+      "Page links",
+      "404",
+      "© 2024 All Rights Reserved by Hyrax Solutions"
+    ],
+    "codeblock": [],
+    "url": "/404"
+  },
+  "/contact": {
+    "version": 1,
+    "title": "Contact | Hyrax AI",
+    "description": "Contact | AI-powered platform offering adaptive problems with personalized difficulty on various subjects. Progress at your own pace, fueling efficient and optimized growth for every individual's path.",
+    "keywords": "",
+    "h1": [
+      "Get in touch"
+    ],
+    "h2": [
+      "Have a query?",
+      "Contact us",
+      "Frequently asked questions"
+    ],
+    "h3": [],
+    "h4": [
+      "Contact",
+      "General contact"
+    ],
+    "h5": [],
+    "h6": [],
+    "p": [
+      "HYRAX AI",
+      "Home",
+      "About",
+      "Contact",
+      "Dashboard",
+      "support@hyraxapp.com",
+      "Get in touch with us to learn more about our platform and how we can help you achieve your educational goals.",
+      "What is Hyrax AI?",
+      "Is Hyrax AI free to use?",
+      "How do I get started using Hyrax?",
+      "How does Hyrax adapt to my personal learning needs?",
+      "What subjects does Hyrax cover?",
+      "What support options are available if I encounter any issues?",
+      "Is there a free trial available?",
+      "Page links",
+      "404",
+      "© 2024 All Rights Reserved by Hyrax Solutions"
+    ],
+    "codeblock": [],
+    "url": "/contact"
+  },
+  "/": {
+    "version": 1,
+    "title": "Hyrax AI | Adaptive AI Learning Platform",
+    "description": "AI-powered platform offering adaptive problems with personalized difficulty on various subjects. Progress at your own pace, fueling efficient and optimized growth for every individual's path.",
+    "keywords": "",
+    "h1": [
+      "Unlock the future of learning with personalized adaptive AI tailored to your unique educational needs."
+    ],
+    "h2": [
+      "Transform your test preparation experience with seamless AI-powered interactions.  Elevate your approach to studying and preparation with adaptive AI technology, paving the way for a more effective and personalized learning journey.",
+      "The science behind your innovative testing experience.",
+      "Item Response Theory (IRT)",
+      "Neural Network",
+      "Optimized Learning",
+      "Expand your knowledge using the best resources.",
+      "Frequently asked questions"
+    ],
+    "h3": [
+      "Sign Up",
+      "Engagement",
+      "Personalize",
+      "How it works"
+    ],
+    "h4": [],
+    "h5": [],
+    "h6": [],
+    "p": [
+      "HYRAX AI",
+      "Home",
+      "About",
+      "Contact",
+      "Dashboard",
+      "Sign up for an account and personalize your experience by exploring your topics of interest.",
+      "Get Started",
+      "Engage with interactive test simulations and real-time feedback, fostering active learning.",
+      "Optimize study effectiveness by targeting weak areas identified by our AI-driven analytics.",
+      "About us",
+      "Analyzes the relationship between individuals' responses to test items and their underlying latent traits",
+      "Updates problem weights based on general user performance",
+      "Facilitates targeted growth by identifying key focus areas for optimal efficiency",
+      "Powered by comprehensive arrays of educational materials from…",
+      "What is Hyrax AI?",
+      "Is Hyrax AI free to use?",
+      "How do I get started using Hyrax?",
+      "How does Hyrax adapt to my personal learning needs?",
+      "What subjects does Hyrax cover?",
+      "What support options are available if I encounter any issues?",
+      "Is there a free trial available?",
+      "Page links",
+      "404",
+      "© 2024 All Rights Reserved by Hyrax Solutions"
+    ],
+    "codeblock": [],
+    "url": "/"
+  }
+}
