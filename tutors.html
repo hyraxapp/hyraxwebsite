@@ -1,1 +1,209 @@
-tutors.html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutors | Hyrax AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            font-family: 'Alexandria';
+            font-weight: 400;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .logo img {
+            width: 30px;
+            height: auto;
+            padding: 23px;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 2vw;
+            flex-grow: 1;
+            justify-content: center;
+            align-items:center;
+            font-weight:lighter;
+        }
+
+        .nav-buttons a {
+            color: white;
+            text-decoration: none;
+            font-weight: 5;
+        }
+
+        .nav-buttons a:hover {
+            text-decoration: none;
+        }
+
+        .dashboard {
+            margin-left: auto;
+        }
+        .desc1 {
+            flex: 1;
+            text-align: left;
+            font-family: 'Alexandria';
+            font-size: 27px;
+        }
+        .button {
+            background-color: transparent;
+            border: 2px solid white;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            position: relative;
+            transition: background-color 0.3s ease;
+        }
+
+        .button::after {
+            content: '→';
+            display: inline-block;
+            margin-left: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .button:hover::after {
+            transform: translateX(5px);
+        }
+        
+
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px;
+            min-height: calc(100vh - 200px); 
+            gap: 30px;
+            font-family: 'Alexandria';
+            font-weight: 400;
+        }
+
+       
+        .content-left {
+            flex: 1;
+            width: 300px;
+            font-family: 'Alexandria';
+            font-weight: 400;
+        }
+
+        .title {
+            font-size: 64px;
+            color: skyblue;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .title img {
+            width: 80%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+
+        .content-right {
+            flex: 1;
+            text-align: left;
+            font-family: 'Alexandria';
+            font-size: small;
+            font-weight: 400;
+        }
+
+        .description {
+            font-size: 33px;
+            line-height: 1.6;
+            font-family: 'Alexandria';
+            font-weight:100;
+            color:skyblue;
+        }
+        .image {
+            flex: 1;
+            width: 300px;
+
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .content-left, .content-right {
+                width: 100%;
+            }
+
+            .logo img {
+                width: 15vw;
+            }
+
+            .nav-buttons {
+                gap: 2vw;
+            }
+
+            .button {
+                padding: 8px 16px;
+            }
+
+            .title img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="logo">
+            <img src="hyraxCircle144px.png" alt="Logo">
+            <span>  HYRAX AI</span>
+        </div>
+        <nav class="nav-buttons">
+            <a href="./index.html">Home</a>
+            <a href="./">About</a>
+            <a href="./contact">Contact</a>
+            <a href="./tutors.html">Tutors</a>
+        </nav>
+        <div class="dashboard">
+            <a href="https://dashboard.hyraxapp.com/" class="button">Dashboard</a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="image">
+            <img src="image.png" alt="Image below title">
+        </div>
+        <div class="content-right">
+            <p class="description">Currently partnering with Tammy Chang Tutoring Prep!</p>
+            <p class="desc1">We are thrilled to partner with Tammy Chang Test Prep, a premier Bay Area tutoring service known for over 15 years of excellence. Tammy Chang Test Prep has helped countless students achieve their academic dreams, with alumni attending prestigious institutions such as Harvard, MIT, Stanford, Princeton, Yale, UCLA, UC Berkeley, Columbia, and many more. Our machine learning powered platform currently serves as a practice tool for SAT and PSAT preparation.</p>
+            <p class="desc1">- Visit at <a href="https://www.tammychangtestprep.com/" style="color: skyblue;">Tammy Chang Test Prep</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
