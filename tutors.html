@@ -159,8 +159,8 @@
             height: 300%;
         }
         .image img {
-            margin-top: 35px;
-            width: 100%;
+            margin-top: 30px;
+            width: 90%;
             filter: brightness(1.2) contrast(1.3);
         }
         .logo {
@@ -170,7 +170,92 @@
             top: 4px; left: 8px;
             font-weight: 350;
         }
+        .footer {
+            margin-top: 40px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            padding: 15px;
+            width: 100%;
+            font-size: 25px;
+            font-weight: 400;
+            transform: translateX(-25px);
+            
+        }
+        .footer img {
+            height: auto;
+            padding: 15px;
+            width:3%;
+        }
+        .footer1 {
+            justify-content: left;
+            align-items:center;
+            margin-top:120px;
+            color:rgb(25, 175, 237);
+            transform: translateX(130px);
+            font-size:smaller;
+        }
+        .footer-links {
+            
+            list-style: none;
+            padding: 0;
+            margin: 60px 0 0 0;
+        }
+        .footer-links li {
+            margin-bottom: 30px; /* Space between the links */
+        }
 
+        .footer-links a {
+            color: rgb(255, 255, 255); /* Match the color with other text */
+            text-decoration: none;
+            font-size: smaller;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .footer-links a:hover {
+            color:rgb(25, 175, 237);
+        }
+        .fading-line {
+            margin-top: 42px;
+            height: 2px; /* Adjust the thickness of the line */
+            background: linear-gradient(to right, transparent, rgb(76, 76, 76), transparent);
+            width: 100%; /* Set width to desired length or 100% to span full width */
+            margin: 10px 0; /* Add margin to separate from other content */
+            length:7px;
+        }
+        .footer2 {
+            transform: translateX(110px);
+            justify-content: left;
+            align-items:center;
+            margin-top:120px;
+            color:rgb(25, 175, 237);
+            font-size:smaller;
+        }
+        .footer-links2 {
+            transform: translateX(110px);
+            list-style: none;
+            padding: 0;
+            margin: 60px 0 0 0;
+        }
+        .footer-links2 li {
+            transform: translateX(110px);
+            margin-bottom: 30px; /* Space between the links */
+        }
+
+        .footer-links2 a {
+            transform: translateX(110px);
+            color: rgb(255, 255, 255); /* Match the color with other text */
+            text-decoration: none;
+            font-size: smaller;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .footer-links2 a:hover {
+            transform: translateX(110px);
+            color:rgb(25, 175, 237);
+        }
         @media (max-width: 768px) {
             .content {
                 flex-direction: column;
@@ -217,7 +302,6 @@
             <a href="https://dashboard.hyraxapp.com/" class="button">Dashboard</a>
         </div>
     </header>
-
     <div class="content">
         <div class="image">
             <img src="tammychang_edited_edited_edited.png" alt="Image below title">
@@ -228,7 +312,35 @@
             <p class="desc1">- Visit at <a href="https://www.tammychangtestprep.com/" style="color: skyblue;">Tammy Chang Test Prep</a></p>
         </div>
     </div>
-
+    <div class="footer">
+        <img src="hyraxCircle144px.png" alt="Logo">
+        <span>  HYRAX AI</span>
+    </div>
+    <div class="fading-line"></div>
+    <div class="footer1">
+        <div class="page-links-container">
+            <div>
+                <p>Page Links</p>
+                <ul class="footer-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./">About</a></li>
+                    <li><a href="./contact">Contact</a></li>
+                    <li><a href="tutors.html">Tutors</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer2">
+        <div>
+            <p>Page Links</p>
+            <ul class="footer-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./">About</a></li>
+                <li><a href="./contact">Contact</a></li>
+                <li><a href="tutors.html">Tutors</a></li>
+            </ul>
+        </div>
+    </div>
     <script>
         let lastScrollY = window.scrollY;
         const header = document.querySelector('.header');
