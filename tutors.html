@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutors | Hyrax AI</title>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400&display=swap" rel="stylesheet">
+ 
     <style>
         body {
             background-color: black;
@@ -13,6 +14,7 @@
             margin: 0;
             font-family: 'Alexandria';
             font-weight: 400;
+            overflow-x: hidden; /* Prevent horizontal scroll */
         }
 
         .header {
@@ -21,12 +23,18 @@
             align-items: center;
             padding: 10px;
             width: 100%;
+            position: fixed; /* Make header sticky */
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 1000;
+            transition: top 0.3s; /* Smooth hiding */
         }
 
         .logo img {
-            width: 30px;
+            width: 32px;
             height: auto;
-            padding: 23px;
+            padding: 10px;
         }
 
         .nav-buttons {
@@ -34,8 +42,12 @@
             gap: 2vw;
             flex-grow: 1;
             justify-content: center;
-            align-items:center;
-            font-weight:lighter;
+            align-items: center;
+            font-weight: lighter;
+            font-size: 14px;
+            font-family: 'Alexandria';
+            margin-right: 1%;
+            
         }
 
         .nav-buttons a {
@@ -46,17 +58,21 @@
 
         .nav-buttons a:hover {
             text-decoration: none;
+            color:deepskyblue;
         }
 
         .dashboard {
-            margin-left: auto;
+            text-align:center;
+            margin-right:1%;
         }
+
         .desc1 {
             flex: 1;
             text-align: left;
             font-family: 'Alexandria';
             font-size: 27px;
         }
+
         .button {
             background-color: transparent;
             border: 2px solid white;
@@ -84,21 +100,19 @@
         .button:hover::after {
             transform: translateX(5px);
         }
-        
 
-        
         .content {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             padding: 40px;
-            min-height: calc(100vh - 200px); 
+            min-height: calc(100vh - 200px);
             gap: 30px;
             font-family: 'Alexandria';
             font-weight: 400;
+            margin-top: 100px; /* Adjust for fixed header */
         }
 
-       
         .content-left {
             flex: 1;
             width: 300px;
@@ -119,7 +133,6 @@
             margin-top: 20px;
         }
 
-
         .content-right {
             flex: 1;
             text-align: left;
@@ -132,18 +145,22 @@
             font-size: 33px;
             line-height: 1.6;
             font-family: 'Alexandria';
-            font-weight:100;
-            color:skyblue;
+            font-weight: 100;
+            color: skyblue;
         }
+
         .image {
             flex: 1;
             width: 300px;
-
         }
+
         .logo {
             display: flex;
             align-items: center;
+            position: relative;
+            top: 5px; left: 6px;
         }
+
         @media (max-width: 768px) {
             .content {
                 flex-direction: column;
@@ -175,7 +192,6 @@
 </head>
 <body>
 
-
     <header class="header">
         <div class="logo">
             <img src="hyraxCircle144px.png" alt="Logo">
@@ -194,7 +210,7 @@
 
     <div class="content">
         <div class="image">
-            <img src="image.png" alt="Image below title">
+            <img src="tammychang_edited_edited_edited.png" alt="Image below title">
         </div>
         <div class="content-right">
             <p class="description">Currently partnering with Tammy Chang Tutoring Prep!</p>
@@ -203,7 +219,21 @@
         </div>
     </div>
 
+    <script>
+        let lastScrollY = window.scrollY;
+        const header = document.querySelector('.header');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > lastScrollY) {
+                // Hide header on scroll down
+                header.style.top = '-100px';
+            } else {
+                // Show header on scroll up
+                header.style.top = '0';
+            }
+            lastScrollY = window.scrollY;
+        });
+    </script>
+
 </body>
 </html>
-
-
